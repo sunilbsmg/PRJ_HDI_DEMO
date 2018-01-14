@@ -1,2 +1,6 @@
 Comments from Developer 1
+<<<<<<< Upstream, based on origin/master
 Comment from Developer 2
+=======
+++2
+>>>>>>> a29b876 ++2
