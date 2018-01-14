@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="PRJ_HDI_DEMO.Database.Models::CV_StockPrices" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="Stock Price View"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="PRJ_HDI_DEMO.Database.DB_Objects::Synonyms_StockPrices">
+    <resourceUri>PRJ_HDI_DEMO.Database.DB_Objects::Synonyms_StockPrices</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="PRJ_HDI_DEMO.Database.DB_Objects::Synonyms_StockPrices">
+  <attributes>
+    <attribute id="id" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="id"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="id"/>
+    </attribute>
+    <attribute id="date" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="date"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="date"/>
+    </attribute>
+    <attribute id="open" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="open"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="open"/>
+    </attribute>
+    <attribute id="high" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="high"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="high"/>
+    </attribute>
+    <attribute id="low" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="low"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="low"/>
+    </attribute>
+    <attribute id="close" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="close"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="close"/>
+    </attribute>
+    <attribute id="volume" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="volume"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="volume"/>
+    </attribute>
+    <attribute id="adjClose" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="adjClose"/>
+      <keyMapping columnObjectName="Synonyms_StockPrices" columnName="adjClose"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

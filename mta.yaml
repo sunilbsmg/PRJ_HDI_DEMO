@@ -1,0 +1,22 @@
+ID: PRJ_HDI_DEMO
+_schema-version: '2.0'
+description: Project for HDI Demo
+version: 0.0.1
+
+modules:
+ - name: Database
+   type: hdb
+   path: Database
+   requires:
+    - name: hdi_Database
+      properties:
+        TARGET_CONTAINER: ~{hdi-container-name}
+    - name: SB_DEMO_1-grantor
+    
+resources:
+ - name: hdi_Database
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
+ - name: SB_DEMO_1-grantor
+   type: org.cloudfoundry.existing-service

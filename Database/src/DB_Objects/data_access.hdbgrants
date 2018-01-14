@@ -1,0 +1,14 @@
+{
+	"SB_DEMO_1-grantor": {
+		"object_owner": { 
+			"roles": [
+				"SB_DEMO_1::external_access_g"
+			]
+		},
+		"application_user": {
+			"roles": [
+				"SB_DEMO_1::external_access"
+			]
+		}
+	}
+}
