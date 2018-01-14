@@ -1,5 +1,5 @@
 Comments from Developer 1
-<<<<<<< Upstream, based on origin/master
+
 
 Comment from Developer 2
 =======
@@ -8,4 +8,4 @@ Comment from Developer 2
 =======
 Comment from Developer 2
 ++1
->>>>>>> 3a0e98e cooo1
+
