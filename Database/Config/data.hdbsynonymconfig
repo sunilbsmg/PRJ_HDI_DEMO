@@ -1,0 +1,8 @@
+{
+  "PRJ_HDI_DEMO.Database.DB_Objects::Synonyms_StockPrices": {
+   "target": {
+      "object": "STOCKPRICES",
+      "schema.configure": "logical-SB_DEMO_1-grantor/schema"
+    }
+  }
+}

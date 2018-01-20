@@ -12,11 +12,20 @@ modules:
       properties:
         TARGET_CONTAINER: ~{hdi-container-name}
     - name: SB_DEMO_1-grantor
-    
+      group: SERVICE_REPLACEMENTS
+      properties: 
+        key: logical-SB_DEMO_1-grantor
+        service: ~{SB_DEMO_1-grantor-service}   
+        
+        
 resources:
  - name: hdi_Database
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
  - name: SB_DEMO_1-grantor
+   properties:
+     SB_DEMO_1-grantor-service: ${service-name}
+#   parameters:
+#     service-name: mydata-grantor2
    type: org.cloudfoundry.existing-service

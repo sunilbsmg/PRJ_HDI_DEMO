@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="343bb40fe94521d579df870e48ef7f8f" name="FG_StockPrice_1" runtimeBehavior="BATCH_TASK">
+  <annotations key="sap.afm.layout" xmi:id="95c6ffdf3f760a4373924e9645aa6c25">
+    <annotations xmi:id="41a473a0416817fe4c3d3e39ec04dc40" key="x" value="10">
+    </annotations>
+    <annotations xmi:id="fd0610e6237150f0233f6235d861c4eb" key="y" value="10">
+    </annotations>
+    <annotations xmi:id="8102c7f731a296b0f779e0baaa600cb7" key="width" value="100">
+    </annotations>
+    <annotations xmi:id="a5a7539ffcccad34ca2b055e1ee62251" key="height" value="84">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="60b88bec616f56080a2e74517c8863f7" key="sap.afm.palette">
+    <annotations xmi:id="2954992c13190fcbba1baf4769f6f401" key="additions" value="">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="95747ec6eaebc381e290aeca0e19dff5" key="sap.afm.nodeType" value="ContainerNode">
+  </annotations>
+  <annotations xmi:id="93209ffbdf55344724f21e61b6e6c5b8" key="sap.afm.nodeInputs">
+  </annotations>
+  <annotations xmi:id="304cd9c032599099de3f170d5b21e9b3" key="sap.afm.nodeOutputs">
+  </annotations>
+  <tableMappings xmi:id="f339bb2f260dd2396961abd820b24259" source="1cb87e4ee4ef7fbd8ca3aad16311718f" target="5f9aea89397381f279d836a4cdf89edd">
+    <attributeMappings xmi:id="56d1d1d4b33e4ec91268ac3cc139ec24" source="700bdbebeb3c9c97109b6b86ab3c2bc7" target="a4645e4e21a9922b582c99bd77596eba">
+    </attributeMappings>
+    <attributeMappings xmi:id="972d6c5f8a34a5608320c5549a532223" source="f340f24868b05285e8f1cc20a822600c" target="2a6e1c58c08fa233c7697e25d89f864a">
+    </attributeMappings>
+    <attributeMappings xmi:id="8b18a5459ba97acb912eaec41c9617a1" source="43700d28a2eac1cb286a1bd06d7103cc" target="50e5859d73594293156a10af5637a213">
+    </attributeMappings>
+    <attributeMappings xmi:id="294e2aabdf388db6712fa7b77a25d69c" source="e54a9597590651891b8a6b9bb11969e5" target="99da8bd000cf7581c8051f9ad576de25">
+    </attributeMappings>
+    <attributeMappings xmi:id="c4512121923fc2759f036d9f58c45a22" source="6621f17bad3057c4302f868133ab4ccb" target="581244e548552bc7db65b58d216be62e">
+    </attributeMappings>
+    <attributeMappings xmi:id="36e6dfce87a0f50310d70b3fdda1e28a" source="de79e7f8edda0432c198f74ca50b9256" target="08e20c1aa1cbd41a0a61b71c00279667">
+    </attributeMappings>
+    <attributeMappings xmi:id="2a51270a3496a14e4fad05f912aebfbc" source="a871ca08744ebf296ca8ba6835bff755" target="6b6c2b057462613c1237a6761892007f">
+    </attributeMappings>
+    <attributeMappings xmi:id="800e852dff19752d7603257f76877508" source="04dd80dcfee1cab93e0237feb8f85d30" target="b7120f45e6af6814d93c55eebe9592f3">
+    </attributeMappings>
+  </tableMappings>
+  <nodes xmi:id="30fd65b227b880c16201d10f4547f8e4" name="DT_StockPrice" catalogObjectName="DT_StockPrice" type="TEMPLATE_TABLE" xsi:type="flowgraph:DataNode">
+    <annotations key="sap.afm.layout" xmi:id="0ff36b7865b837dd3509bd6a16e84481">
+      <annotations xmi:id="bbe1092f7259f142aa8b72581cf777d8" key="x" value="204.970703125">
+      </annotations>
+      <annotations xmi:id="4f566b77b57310b1c7e31488062a225f" key="y" value="12">
+      </annotations>
+      <annotations xmi:id="949dda14317a94a17fc55f4c114cbd08" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="7b53e9d968fb5a12a980ecebb8be92d8" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="f136ab042c72259271fcc1c7d74d3481" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="c39ab25ad00583472dcb0871a61bda86" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="ba676a6bff41ca7195b7743d5054a843" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="904d8224db116aae4cd27459d52f240b" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="3f76cb7983ffb179b34c06e36c9abae5" key="sap.afm.displayName" value="Data Target">
+    </annotations>
+    <inputs xmi:id="5f9aea89397381f279d836a4cdf89edd" name="DT_StockPrice">
+      <attributes xmi:id="a4645e4e21a9922b582c99bd77596eba" name="id" type="INTEGER" nullable="false" length="10">
+        <annotations xmi:id="afcd80a7b7fa3cdb76186580096c6f14" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="2a6e1c58c08fa233c7697e25d89f864a" name="date" type="DATE" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="50e5859d73594293156a10af5637a213" name="open" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="99da8bd000cf7581c8051f9ad576de25" name="high" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="581244e548552bc7db65b58d216be62e" name="low" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="08e20c1aa1cbd41a0a61b71c00279667" name="close" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="6b6c2b057462613c1237a6761892007f" name="volume" type="INTEGER" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="b7120f45e6af6814d93c55eebe9592f3" name="adjClose" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+    </inputs>
+  </nodes>
+  <nodes xmi:id="b9ad042a35f137ec1532f9345228a755" name="DS_StockPrice" catalogObjectName="PRJ_HDI_DEMO.Database.DB_Objects::Synonyms_StockPrices" type="DATABASE_TABLE" xsi:type="flowgraph:DataNode" dataLayout="COLUMN">
+    <annotations key="sap.afm.layout" xmi:id="b5ebd93bf1fe798f81f787d81a876d59">
+      <annotations xmi:id="2c7f0ac4e909ffe43475eb294356a1c9" key="x" value="12">
+      </annotations>
+      <annotations xmi:id="b4513584eb809f17a1cb4ed9e791e45a" key="y" value="12">
+      </annotations>
+      <annotations xmi:id="1d1a3d82496e04809f48cb982ed0e883" key="width" value="131.970703125">
+      </annotations>
+      <annotations xmi:id="f9b24c264a7e752e9d343966ffe1caa3" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="0f951dbcceac35bc5c34e9632af512fd" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="876d0ce25230bb668a5d878488c8fbf4" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="90017684eb5ec394082070b442a10ee0" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="6a8e8b9ea9ecf560f2e1b0266d74612a" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="4ce29a97e454485651779b2813386fea" key="sap.afm.displayName" value="Data Source">
+    </annotations>
+    <annotations xmi:id="73186075f14c34d768c8e844cf0b00ab" key="columns" value="[{&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;type&quot;:&quot;DATE&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;open&quot;,&quot;type&quot;:&quot;DOUBLE&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;high&quot;,&quot;type&quot;:&quot;DOUBLE&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;low&quot;,&quot;type&quot;:&quot;DOUBLE&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;close&quot;,&quot;type&quot;:&quot;DOUBLE&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;volume&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;adjClose&quot;,&quot;type&quot;:&quot;DOUBLE&quot;,&quot;length&quot;:15,&quot;nullable&quot;:&quot;true&quot;}]">
+    </annotations>
+    <outputs xmi:id="1cb87e4ee4ef7fbd8ca3aad16311718f" name="DS_StockPrice">
+      <attributes xmi:id="700bdbebeb3c9c97109b6b86ab3c2bc7" name="id" type="INTEGER" nullable="false" length="10">
+        <annotations xmi:id="8588a7265338cfa3eea5583a00444bb4" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="f340f24868b05285e8f1cc20a822600c" name="date" type="DATE" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="43700d28a2eac1cb286a1bd06d7103cc" name="open" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="e54a9597590651891b8a6b9bb11969e5" name="high" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="6621f17bad3057c4302f868133ab4ccb" name="low" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="de79e7f8edda0432c198f74ca50b9256" name="close" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+      <attributes xmi:id="a871ca08744ebf296ca8ba6835bff755" name="volume" type="INTEGER" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="04dd80dcfee1cab93e0237feb8f85d30" name="adjClose" type="DOUBLE" nullable="true" length="15">
+      </attributes>
+    </outputs>
+  </nodes>
+</flowgraph:ContainerNode>

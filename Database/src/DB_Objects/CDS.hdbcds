@@ -1,0 +1,28 @@
+namespace PRJ_HDI_DEMO.Database.DB_Objects;
+
+context CDS {
+    /*@@layout{"layoutInfo":{}}*/
+    entity employees {
+        key emp_id : Integer not null;
+            fname  : String(20);
+            lname  : String(20);
+            role   : String(20);
+    };
+
+    /*@@layout{"layoutInfo":{}}*/
+    entity More_Employees {
+        key emp_id : Integer not null;
+            fname  : String(20);
+            lname  : String(20);
+            role   : String(20);
+    };
+
+
+    /*@@layout{"layoutInfo":{}}*/
+    entity facts {
+        emp_id         : Integer not null;
+        team_id        : Integer;
+        date           : LocalDate;
+        revenue_earned : Integer;
+    };
+}
