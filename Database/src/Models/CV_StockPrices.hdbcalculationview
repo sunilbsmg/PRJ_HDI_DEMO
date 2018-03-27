@@ -12,7 +12,7 @@
 <logicalModel id="PRJ_HDI_DEMO.Database.DB_Objects::Synonyms_StockPrices">
   <attributes>
     <attribute id="id" order="1" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="id"/>
+      <descriptions defaultDescription="id_new"/>
       <keyMapping columnObjectName="Synonyms_StockPrices" columnName="id"/>
     </attribute>
     <attribute id="date" order="2" displayAttribute="false" attributeHierarchyActive="false">
